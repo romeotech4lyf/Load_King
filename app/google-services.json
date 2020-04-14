@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "905451242671",
+    "firebase_url": "https://load-king.firebaseio.com",
+    "project_id": "load-king",
+    "storage_bucket": "load-king.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:905451242671:android:c162f33a2923af79c6805a",
+        "android_client_info": {
+          "package_name": "com.tech4lyf.loadking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "905451242671-mcnfuelj2lqpun4p6kpmp84m6vt44njd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tech4lyf.loadking",
+            "certificate_hash": "47e5f31688da6385ef6b1a17aa4632b18c56744c"
+          }
+        },
+        {
+          "client_id": "905451242671-7in2mvm30vvnetngct2cgu61tfkuvntc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2ZrKQeVaSgMVNDrPqSDbQCPWPnnh5ryk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "905451242671-7in2mvm30vvnetngct2cgu61tfkuvntc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
