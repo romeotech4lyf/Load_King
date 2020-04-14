@@ -39,7 +39,7 @@ public class SMSHelper {
         StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
         StrictMode.setThreadPolicy(policy);
 
-        String newURL=GET_URL+"?apikey=nEYbOYS7MI0-Bhtqx6vNWTwmNibnFfQz6FeJoFR3Dj"+"&numbers="+phone+"&message="+ URLEncoder.encode(message,"UTF-8")+"&sender=TCHLYF";
+        String newURL=GET_URL+"?apikey=nEYbOYS7MI0-Bhtqx6vNWTwmNibnFfQz6FeJoFR3Dj"+"&numbers="+phone+"&message="+ URLEncoder.encode(message,"UTF-8")+"&sender=TCHLYF&test=1";
         Log.e("OTP",newURL);
         Log.e("SMS",newURL);
         URL obj = new URL(newURL);

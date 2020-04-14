@@ -29,7 +29,7 @@ public class SMSBroadcastReceiver extends BroadcastReceiver {
                     String message = (String) extras.get(SmsRetriever.EXTRA_SMS_MESSAGE);
                     Log.d(TAG, "onReceive: "+message);
                     if (otpReceiveInterface != null) {
-                        String otp = message.replace("[#] Your otp code is : ", "");
+                        String otp = message.replace("(#) Your otp code is : ", "");
                         otpReceiveInterface.onOtpReceived(otp);
                         Log.d(TAG, "OTP is"+otp);
                     }
