@@ -82,6 +82,8 @@ public class SignupScreen extends AppCompatActivity implements GoogleApiClient.C
             @Override
             public void onClick(View v) {
 
+                SignupScreen.this.startActivity(new Intent(SignupScreen.this,MainActivity.class));
+
                 phone = edtPhone.getText().toString();
                 if (phone.isEmpty()) {
                     Toast.makeText(SignupScreen.this, "Enter Phone Number", Toast.LENGTH_SHORT).show();
